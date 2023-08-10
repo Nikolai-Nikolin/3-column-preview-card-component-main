@@ -1,0 +1,186 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(0, 0%, 95%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.card-main {
+    width: 860px;
+    height: 430px;
+    display: flex;
+    border-radius: 5px;
+}
+
+.card-orange {
+    padding: 40px;
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 5px 0 0 5px;
+}
+
+.card-orange > img {
+    width: 30%;
+}
+
+.card-orange > h2 {
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display';
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.muted-text-orange {
+    font-size: 15px;
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 20px;
+}
+
+.button-orange { 
+    width: 120px;
+    height: 40px;
+    border-radius: 30px;
+    border: 2px solid hsl(0, 0%, 95%);
+    transition: all 0.5s;
+    position: absolute;
+    margin-top: 80px;
+    font-size: 15px;
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(31, 77%, 52%);
+}
+
+.button-orange:hover { /* изменение кнопки при наведении курсора */
+    width: 120px;
+    height: 40px;
+    border-radius: 30px;
+    border: 2px solid hsl(0, 0%, 95%);
+    transition: all 0.5s;
+    margin-top: 80px;
+    font-size: 15px;
+    position: absolute;
+    background-color: hsl(31, 77%, 52%);
+    color: hsl(0, 0%, 95%);
+}
+
+.button-orange:active { /* изменение при клике */
+    border: 2px hsl(31, 77%, 52%);
+}
+
+.card-blue {
+    padding: 40px;
+    background-color: hsl(184, 100%, 22%);
+}
+
+.card-blue > img {
+    width: 30%;
+}
+
+.card-blue > h2 {
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.muted-text-blue {
+    font-size: 15px;
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 20px;
+    
+}
+
+.button-blue {
+    width: 120px;
+    height: 40px;
+    border-radius: 30px;
+    border: 2px solid hsl(0, 0%, 95%);
+    transition: all 0.5s;
+    margin-top: 80px;
+    font-size: 15px;
+    position: absolute;
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(184, 100%, 22%);
+}
+
+.button-blue:hover { /* изменение кнопки при наведении курсора */
+    width: 120px;
+    height: 40px;
+    border-radius: 30px;
+    border: 2px solid hsl(0, 0%, 95%);
+    transition: all 0.5s;
+    margin-top: 80px;
+    font-size: 15px;
+    position: absolute;
+    background-color: hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 95%);
+}
+
+.button-blue:active { /* изменение при клике */
+    border: 2px hsl(184, 100%, 22%);
+}
+
+.card-green {
+    padding: 40px;
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 5px 5px 0;
+}
+
+.card-green > img {
+    width: 30%;
+}
+
+.card-green > h2 {
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display';
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.muted-text-green {
+    font-size: 15px;
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 20px;
+}
+
+.button-green {
+    width: 120px;
+    height: 40px;
+    border-radius: 30px;
+    border: 2px solid hsl(0, 0%, 95%);
+    transition: all 0.5s;
+    margin-top: 80px;
+    font-size: 15px;
+    position: absolute;
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(179, 100%, 13%);
+}
+
+.button-green:hover { /* изменение кнопки при наведении курсора */
+    width: 120px;
+    height: 40px;
+    border-radius: 30px;
+    border: 2px solid hsl(0, 0%, 95%);
+    transition: all 0.5s;
+    margin-top: 80px;
+    font-size: 15px;
+    position: absolute;
+    background-color: hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 95%);
+}
+
+.button-green:active { /* изменение при клике */
+    border: 2px hsl(179, 100%, 13%);
+}
